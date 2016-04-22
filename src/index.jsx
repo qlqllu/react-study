@@ -6,7 +6,7 @@ import {createStore} from 'redux';
 import reducer from './reducer';
 import {setState} from './action_creators';
 import App from './components/App';
-import {VotingContainer} from './components/Voting';
+import {VotingContainer} from './containers/Voting';
 import {ResultsContainer} from './components/Results';
 
 const store = createStore(reducer);
